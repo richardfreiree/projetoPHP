@@ -8,6 +8,22 @@
 	echo ("Operadores de multiplicação <br />");
 	echo ("Operadores de divisao <br />");
 
-	echo ("insira a operação desejada:  <br />");
+	echo ("insira a operação desejada:  <br /> <br/>");
+
+
+	$num1 = 10;
+$num2 = 20;
+$resp1 = $num1 + $num2;
+$resp2 = $num1 - $num2;
+$resp3 = $num1 * $num2;
+$resp4 = $num1 / $num2;
+
+
+
+echo("a soma de $num1 + $num2 é $resp1  <br />");
+echo("a subtração de $num1 + $num2 é $resp2  <br />");
+echo("a multiplicação de $num1 + $num2 é $resp3  <br />");
+echo("a divisao de $num1 + $num2 é $resp4  <br />");
+
 	
  ?>
