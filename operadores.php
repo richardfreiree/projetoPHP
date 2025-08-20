@@ -20,10 +20,10 @@ $resp4 = $num1 / $num2;
 
 
 
-echo("a soma de $num1 + $num2 é $resp1  <br />");
-echo("a subtração de $num1 + $num2 é $resp2  <br />");
-echo("a multiplicação de $num1 + $num2 é $resp3  <br />");
-echo("a divisao de $num1 + $num2 é $resp4  <br />");
+echo("A soma de $num1 + $num2 é $resp1  <br />");
+echo("A subtração de $num1 + $num2 é $resp2  <br />");
+echo("A multiplicação de $num1 + $num2 é $resp3  <br />");
+echo("A divisão de $num1 + $num2 é $resp4  <br />");
 
 	
  ?>
