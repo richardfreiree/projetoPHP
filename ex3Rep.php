@@ -2,8 +2,15 @@
 	$true = true;
 	$nome = "Marcela";
 	$sexo = "F";
-	idade = 20;
+	$idade = 26;
 
-	while($true != true);
-	
+	if($sexo == "F" && $idade > 25) {
+
+		echo ("Você foi aceita: $nome");
+	} else{
+		echo "Você não foi aceita: $nome";
+
+	};
+
+
  ?>
