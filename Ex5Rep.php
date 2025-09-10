@@ -7,4 +7,19 @@ $altM = 0;
 $altF = 0;
 $sexo1 = "F";
 $sexo2 = "M";
+$somaAltF = 0;
+
+while($cont <= 25){
+$cont++;
+$idadeM = 30;
+$idadeF = 17;
+$altM = 1.80;
+$altF = 1.70;
+$sexo1 = "F";
+$sexo2 = "M";
+$somaAltF = $somaAltF + $altF;
+
+}
+
+	
  ?>
