@@ -30,5 +30,13 @@ $somaAltF = $somaAltF + $altF;
 	} else{
 		echo "A maior altura é de $altF</br> e a menor altura é de $altM</br>";
 	};
-	
+
+		if($idadeM > $idadeF) {
+		echo "A maior idade masculina é de $idadeM</br> e a menor idade feminina é de $idadeF</br>";
+	} else{
+		echo "A maior altura é de $altF</br> e a menor altura é de $altM</br>";
+	};
+
+
+	echo(medAltF($somaAltF));
  ?>
