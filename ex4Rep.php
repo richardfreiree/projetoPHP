@@ -1,7 +1,7 @@
 <?php 
 
-$num1 = 6;
-$num2 = 5;
+$num1 = 5;
+$num2 = 6;
 $num3 = 3;
 $fi = 0;
 $ft = false;
