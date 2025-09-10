@@ -9,6 +9,11 @@ $sexo1 = "F";
 $sexo2 = "M";
 $somaAltF = 0;
 
+function medAltF($somaAltF) {
+	$media = $somaAltF / 25;
+	echo "A média de altura das mulheres é de $media</br>";
+}
+
 while($cont <= 25){
 $cont++;
 $idadeM = 30;
@@ -20,6 +25,10 @@ $sexo2 = "M";
 $somaAltF = $somaAltF + $altF;
 
 }
-
+	if($altM > $altF) {
+		echo "A maior altura é de $altM</br> e a menor altura é de $altF</br>";
+	} else{
+		echo "A maior altura é de $altF</br> e a menor altura é de $altM</br>";
+	};
 	
  ?>
